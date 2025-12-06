@@ -1,0 +1,62 @@
+{
+    "window.commandCenter": false,
+
+    // Turn navigation breadcrumbs off
+    "breadcrumbs.enabled": false,
+
+    // Editor settings
+    "editor.fontFamily": "Fira Code, SF Mono, Menlo, Monaco, JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "phase",
+    "editor.lineNumbers": "relative",
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.scrollbar.horizontalScrollbarSize": 6,
+    "editor.stickyScroll.enabled": false,
+    "editor.unicodeHighlight.nonBasicASCII": true,
+    "python.defaultInterpreterPath": "python3",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#8b8b8b39"
+            },
+        ],
+    },
+    
+    // Workbench settings
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.sideBar.location": "right",
+    "workbench.layoutControl.enabled": false,
+
+    // Files settings
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.DS_Store": true,
+        "**/.expo": true,
+        "**/.expo-shared": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/.vscode": true,
+        "**/CVS": true,
+        "**/Thumbs.db": true
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.accessibleViewPreserveCursorPosition": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "terminal.integrated.fontLigatures": true,
+    "workbench.colorTheme": "Nord",
+}

@@ -1,0 +1,12 @@
+arcticicestudio.nord-visual-studio-code
+charliermarsh.ruff
+github.copilot
+github.copilot-chat
+mechatroner.rainbow-csv
+monokai.theme-monokai-pro-vscode
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+visualstudioexptteam.vscodeintellicode
+vscodevim.vim
